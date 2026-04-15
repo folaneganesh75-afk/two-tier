@@ -8,7 +8,11 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies
+RUN npm init -y
+
 RUN npm install
+
+RUN npm install express
 
 RUN npm install cors
 
