@@ -1,0 +1,11 @@
+---
+services:
+  backend:
+    build: "node-js/"
+    ports:
+      - "3000:3000"
+
+  frontend:
+    build: "html/"
+    ports:
+      - "3001:80"
