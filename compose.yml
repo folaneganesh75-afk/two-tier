@@ -3,7 +3,7 @@ services:
   backend:
     build: "node-js/"
     ports:
-      - "3002:000"
+      - "3002:3000"
 
   frontend:
     build: "html/"
